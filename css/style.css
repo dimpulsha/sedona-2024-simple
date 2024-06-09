@@ -1,0 +1,14 @@
+.page-title {
+  background: url(../image/index-background.jpg) no-repeat;
+  background-size: contain;
+}
+
+.subscribe--bg {
+  background: url(../image/subscribe-bg.png) no-repeat;
+  background-size: contain;
+}
+
+.filter-section__wrapper {
+  background: url(../image/catalog-bg.png) no-repeat;
+  background-size: contain;
+}

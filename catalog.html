@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
   <title>Отели города Седона</title>
   <meta name="description" content="Поиск отелей в городе Седона">
 </head>
@@ -11,7 +12,7 @@
 <body class="catalog">
   <header class="header">
     <a class="header__logo logo" href="index.html">
-      <img src="" alt="Site Logo" width="139" height="70">
+      <img src="image/sedona-logo.svg" alt="Site Logo" width="139" height="70">
     </a>
     <nav class="header__navigation navigation">
       <ul class="navigation__list site-navigation">
@@ -21,8 +22,8 @@
         <li class="site-navigation__item">
           <a href="#">О Седоне</a>
         </li>
-        <li class="site-navigation__item">
-          <a href="#">Гостиницы</a>
+        <li class="site-navigation__item site-navigation__item--current">
+          <a>Гостиницы</a>
         </li>
       </ul>
       <ul class="navigation__list user-navigation">
@@ -48,11 +49,12 @@
           </a>
         </li>
         <li class="breadcrumb__item">
-          <a class="breadcrumb__link" href="">Гостиницы</a>
+          <a class="breadcrumb__link">Гостиницы</a>
         </li>
       </ul>
     </header>
     <section class="catalog-main__section filter-section">
+      <div class="filter-section__wrapper">
       <h2 class="visually-hidden">Форма настройки фильтра</h2>
       <form class="filter" action="https://echo.htmlacademy.ru/" method="get">
         <fieldset class="filter__group">
@@ -127,6 +129,7 @@
         <input type="submit" value="Применить">
         <input type="reset" value="Сбросить">
       </form>
+      </div>
     </section>
     <section class="catalog-main__section catalog">
       <header class="catalog-header">
@@ -163,7 +166,7 @@
         <li class="catalog-item">
           <a class="catalog-item__link" href="#">
             <h3 class="catalog-item__title">Amara Resort & Spa</h3>
-            <img src="" alt="Вид из окна номера" width="300" height="206">
+            <img src="image/catalog/amara.jpg" alt="Вид из окна номера" width="300" height="206">
           </a>
           <p class="catalog-item__type">Гостиница</p>
           <p class="catalog-item__price">
@@ -184,7 +187,7 @@
         <li class="catalog-item">
           <a class="catalog-item__link" href="#">
             <h3 class="catalog-item__title">Desert Quail Inn</h3>
-            <img src="" alt="Вид из окна номера" width="300" height="206">
+            <img src="image/catalog/desert.jpg" alt="Вид из окна номера" width="300" height="206">
           </a>
           <p class="catalog-item__type">Гостиница</p>
           <p class="catalog-item__price">
@@ -205,7 +208,7 @@
         <li class="catalog-item">
           <a class="catalog-item__link" href="#">
             <h3 class="catalog-item__title">Villas at Poco Diablo</h3>
-            <img src="" alt="Вид из окна номера" width="300" height="206">
+            <img src="image/catalog/villas.jpg" alt="Вид из окна номера" width="300" height="206">
           </a>
           <p class="catalog-item__type">Гостиница</p>
           <p class="catalog-item__price">
@@ -226,7 +229,7 @@
         <li class="catalog-item">
           <a class="catalog-item__link" href="#">
             <h3 class="catalog-item__title">GreenTree Inn</h3>
-            <img src="" alt="Вид из окна номера" width="300" height="206">
+            <img src="image/catalog/greentree.jpg" alt="Вид из окна номера" width="300" height="206">
           </a>
           <p class="catalog-item__type">Гостиница</p>
           <p class="catalog-item__price">
@@ -315,7 +318,7 @@
       +7 (812) 812-12-12
     </a>
     <a class="footer__item developer-link" href="">
-      <img src="" alt="Разработано в HTML Academy">
+      <img src="image/htmlacademy-logo.svg" alt="Разработано в HTML Academy">
     </a>
   </footer>
 </body>
