@@ -1,6 +1,85 @@
-.page-title {
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+  color: #000000;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.button--big {
+  font-size: 20px;
+}
+
+.button--submit {
+  font-size: 16px;
+}
+
+.button--reset {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.site-navigation {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.welcome {
   background: url(../image/index-background.jpg) no-repeat;
   background-size: contain;
+}
+
+.section__title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.section__text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+/* .page-main__section-text,
+.catalog-main__section-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+Пока забьем на разные высоты строк
+*/
+
+.advantages-item__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantages-item__text {
+  line-height: 21px;
 }
 
 .subscribe--bg {
@@ -8,7 +87,51 @@
   background-size: contain;
 }
 
+.footer-phone {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
 .filter-section__wrapper {
   background: url(../image/catalog-bg.png) no-repeat;
   background-size: contain;
+}
+
+/* страница каталога  */
+.page-title {
+  font-weight: 700;
+  font-size: 60px;
+  /* color: #ffffff; */
+}
+
+.breadcrumb__item {
+  font-size: 16px;
+}
+
+.filter {
+  color: #ffffff;
+}
+
+.filter__group-title {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.range-label__text {
+  opacity: 0.3;
+}
+
+.catalog-item__title {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.catalog-item__rating {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.pagination-item {
+  font-weight: 700;
+  font-size: 20px;
 }
